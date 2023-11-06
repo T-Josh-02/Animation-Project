@@ -1,0 +1,46 @@
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+
+    animation: slider 30s infinite;
+}
+
+.load{
+    animation: slider 2s;
+}
+@keyframes slider {
+    0%{
+        background-image: url(5defbd98389a9c690c49f5168e861b5c.jpg);
+    }
+    20%{
+        background-image: url(amazing-lions-wallpaper-39e0086dd1caddeb2647f82fa071364d.jpg);
+    }
+    20.1%{
+        background-image: url(digital-art-fantasy-art-children-teddy-bears-wallpaper-22a11260cd56aebb4a4812c510c8e952.jpg);
+    }
+    40%{
+        background-image: url(tower-block-new-york-usa-united-states-wallpaper-1990f85d11aa9d2bd6e7b89f4091866d.jpg);
+    }
+    40.1%{
+        background-image: url(arm-wrestling-dc-vs-marvel-drawing-venom-bane-nightwing-batman-green-lantern-hulk-the-hulk-wolverine-hd-wallpaper-c9c0082d51ea3dbb364708eff0c1666d.jpg);
+    }
+    60%{
+        background-image: url(night-long-exposure-street-street-light-wallpaper-3910082d810a3dbbe607488f10e136ed.jpg);
+    }
+    60.1%{
+        background-image: url(5defbd98389a9c690c49f5168e861b5c.jpg);
+    }
+    80%{
+        background-image: url(amazing-lions-wallpaper-39e0086dd1caddeb2647f82fa071364d.jpg);
+    }
+    80.1%{
+        background-image: url(tower-block-new-york-usa-united-states-wallpaper-1990f85d11aa9d2bd6e7b89f4091866d.jpg);
+    }
+    100%{
+        background-image: url(night-long-exposure-street-street-light-wallpaper-3910082d810a3dbbe607488f10e136ed.jpg);
+    }
+
+}
